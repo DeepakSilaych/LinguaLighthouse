@@ -23,5 +23,5 @@ Start with your existing React project or create a new one using create-react-ap
 ```bash
 npx create-react-app my-app
 cd my-app
-npm install i18next react-i18next i18next-browser-languagedetector
+pnpm install i18next react-i18next i18next-browser-languagedetector
 
