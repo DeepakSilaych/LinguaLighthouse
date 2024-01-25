@@ -24,4 +24,5 @@ Start with your existing React project or create a new one using create-react-ap
 npx create-react-app my-app
 cd my-app
 pnpm install i18next react-i18next i18next-browser-languagedetector
-
+```
+Thanks to i18next-browser-languagedetector now it tries to detect the browser language and automatically use that language if you've provided the translations for it. The manually selected language in the language switcher is persisted in the localStorage, next time you visit the page, that language is used as preferred language.
